@@ -1,10 +1,10 @@
 package main
 
 import (
-    "./network" network
+	network "./network"
 )
 
 func main() {
-    name := "test"
-    network.Create(name)
+	name := "test"
+	network.Create(name)
 }
